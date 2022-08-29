@@ -1,0 +1,51 @@
+.header{
+    background-color: grey;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.header_container{
+    display: flex;
+    align-items: center;
+    flex: 0.9;
+}
+.header_image{
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.search_box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.search_box > input{
+    padding: 10px;
+    flex: 1;
+    border: none;
+    outline-width: 0;
+}
+.search_icon{
+    background-color: brown;
+    color: white;
+    padding: 6px;
+}
+.header_right{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 400px;
+}
+.headerOption_basket{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.basket{
+    margin-right: 5px;
+}

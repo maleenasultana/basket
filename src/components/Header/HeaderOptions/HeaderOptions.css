@@ -1,0 +1,9 @@
+.headerOptions{
+    color: white;
+}
+.headerOptions > h4{
+    font-size: 0.8rem;
+}
+.headerOptions > h2{
+    font-size: 0.9rem;
+}
