@@ -19,7 +19,7 @@ function CheckoutProduct({id,title,image,price,rating}) {
         {basket.length ? (
             <>
             (
-                <img className='checkoutProduct_image' src={image} />
+                <img className='checkoutProduct_image' src={image} alt="image" />
                 <div>
                     <p>{title}</p>
                     <p>

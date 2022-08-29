@@ -8,9 +8,9 @@ function Checkout() {
   return (
     <div className='checkout'>
         <div className='checkout_left'>
-            <img src=""/>
+            <img src="" alt=""/>
 
-            {basket?.length==0 ? (
+            {basket?.length === 0 ? (
                 <div>
                     <h1>Your Shopping Cart is Empty</h1>
                     <p>You have no items in the cart. To buy just click on "Add to
